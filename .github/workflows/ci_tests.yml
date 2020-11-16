@@ -16,4 +16,7 @@ jobs:
         with:
           path: .
           mode: test
-      - name: 
+      - name: Setup python ${{ matrix.python }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.pytho
