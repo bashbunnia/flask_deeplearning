@@ -19,4 +19,8 @@ jobs:
       - name: Setup python ${{ matrix.python }}
         uses: actions/setup-python@v4
         with:
-          python-version: ${{ matrix.pytho
+          python-version: ${{ matrix.python }}
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install --upgr
