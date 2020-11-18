@@ -28,3 +28,4 @@ jobs:
       - name: Run tests
         run: |
           cd app
+          make test
