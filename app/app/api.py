@@ -16,4 +16,7 @@ from .model import *
 
 api = Blueprint('api', __name__)
 
-@api.route("/
+@api.route("/predictlabel", methods=["POST"])
+def predict():
+    # result dictionary that will be returned from the view
+    result = {"success
