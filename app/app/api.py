@@ -19,4 +19,8 @@ api = Blueprint('api', __name__)
 @api.route("/predictlabel", methods=["POST"])
 def predict():
     # result dictionary that will be returned from the view
-    result = {"success
+    result = {"success": False}
+
+    # ensure an image was properly uploaded to our endpoint
+    if request.method == "POST":
+        if request.files.get("file")
