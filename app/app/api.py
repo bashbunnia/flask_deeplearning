@@ -23,4 +23,7 @@ def predict():
 
     # ensure an image was properly uploaded to our endpoint
     if request.method == "POST":
-        if request.files.get("file")
+        if request.files.get("file"):
+            # read image as grayscale
+            image_req = request.files["file"].read()
+            request.files["file"].close()
