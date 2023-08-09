@@ -27,3 +27,7 @@ def predict():
             # read image as grayscale
             image_req = request.files["file"].read()
             request.files["file"].close()
+            image = imread(io.BytesIO(image_req), as_gray=True)
+
+            # preprocess the image for model
+            preprocessed_ima
