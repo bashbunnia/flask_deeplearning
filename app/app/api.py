@@ -30,4 +30,7 @@ def predict():
             image = imread(io.BytesIO(image_req), as_gray=True)
 
             # preprocess the image for model
-            preprocessed_ima
+            preprocessed_image = preprocess_image(image)
+
+            # classify the input image generating a list of predictions
+            model = 
