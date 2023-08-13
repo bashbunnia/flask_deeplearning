@@ -36,4 +36,8 @@ def predict():
             model = current_app.config["model"]
             preds = model.predict(preprocessed_image)
             
-            # add generated predictions to 
+            # add generated predictions to result
+            result["predictions"] = []
+
+            for i in range(0,10):
+                pred = {"label": str(i), "probability": str(preds[
