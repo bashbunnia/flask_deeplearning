@@ -40,4 +40,7 @@ def predict():
             result["predictions"] = []
 
             for i in range(0,10):
-                pred = {"label": str(i), "probability": str(preds[
+                pred = {"label": str(i), "probability": str(preds[0][i])}
+                result["predictions"].append(pred)
+
+            result["most_probable_label"] = str(np.argmax(preds[
