@@ -33,4 +33,7 @@ def predict():
             preprocessed_image = preprocess_image(image)
 
             # classify the input image generating a list of predictions
-            model = 
+            model = current_app.config["model"]
+            preds = model.predict(preprocessed_image)
+            
+            # add generated predictions to 
