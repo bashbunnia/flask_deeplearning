@@ -43,4 +43,9 @@ def predict():
                 pred = {"label": str(i), "probability": str(preds[0][i])}
                 result["predictions"].append(pred)
 
-            result["most_probable_label"] = str(np.argmax(preds[
+            result["most_probable_label"] = str(np.argmax(preds[0]))
+
+            # indicate that the request was a success
+            result["success"] = True
+
+    # return result
