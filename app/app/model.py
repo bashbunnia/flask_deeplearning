@@ -20,4 +20,10 @@ def init_model():
     """
     
     model = load_model(current_app.config["MODEL_PATH"])
-    model.make_predict_function
+    model.make_predict_function()
+    return model
+
+def preprocess_image(image):
+    """Function that preprocess image.
+    Returns:
+        imag
