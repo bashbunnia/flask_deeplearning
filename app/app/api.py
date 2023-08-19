@@ -48,4 +48,5 @@ def predict():
             # indicate that the request was a success
             result["success"] = True
 
-    # return result
+    # return result dictionary as JSON response to client
+    return jsonify(result)
