@@ -16,4 +16,8 @@ from flask import current_app
 def init_model():
     """Function that loads Deep Learning model.
     Returns:
-      
+        model: Loaded Deep Learning model.
+    """
+    
+    model = load_model(current_app.config["MODEL_PATH"])
+    model.make_predict_function
