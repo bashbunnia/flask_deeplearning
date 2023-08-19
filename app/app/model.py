@@ -7,4 +7,13 @@ __copyright__   = "Copyright 2018-2023"
 
 
 from tensorflow.keras.models import load_model
-from skimage import transf
+from skimage import transform, util
+import numpy as np
+
+from flask import current_app
+
+
+def init_model():
+    """Function that loads Deep Learning model.
+    Returns:
+      
