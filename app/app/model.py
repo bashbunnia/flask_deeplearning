@@ -26,4 +26,10 @@ def init_model():
 def preprocess_image(image):
     """Function that preprocess image.
     Returns:
-        imag
+        image: Preprocessed image.
+    """
+
+    # invert grayscale image
+    image = util.invert(image)
+    # resize and reshape image for model
+   
