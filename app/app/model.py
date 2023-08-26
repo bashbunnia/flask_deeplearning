@@ -32,4 +32,6 @@ def preprocess_image(image):
     # invert grayscale image
     image = util.invert(image)
     # resize and reshape image for model
-   
+    image = transform.resize(image, (28,28), anti_aliasing=True, mode="constant")
+    image = np.array(image)
+    image = image.reshape((1,28*28))
