@@ -13,4 +13,9 @@
    <P>POST example using curl:</P>
    <P>curl -F file=@app/app/static/4.jpg -X POST 'http://127.0.0.1/api/predictlabel'</P>
    <P>{
-        
+         "most_probable_label": "4", 
+         "predictions": [
+           {
+             "label": "0", 
+             "probability": "8.55888e-09"
+     
