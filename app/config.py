@@ -24,3 +24,23 @@ class DefaultConfig:
 
 class DevConfig(DefaultConfig):
     DEBUG = True
+
+    @classmethod
+    def init_app(cls, app):
+        print("DEVELOPMENT CONFIG")
+
+
+class TestConfig(DefaultConfig):
+    TESTING = True
+
+    @classmethod
+    def init_app(cls, app):
+        print("TESTING CONFIG")
+
+
+config = {
+    "development": DevConfig,
+    "testing": TestConfig,
+    "production": DefaultConfig,
+    "default": DefaultConfig
+}
