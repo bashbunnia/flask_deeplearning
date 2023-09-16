@@ -10,4 +10,8 @@ import pytest
 import json
 import sys
 
-def test_index(cl
+def test_index(client):
+    response = client.get("/")
+    # check response
+    assert response.status_code == 200
+    assert response.data == b"Deep Learn
