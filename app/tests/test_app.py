@@ -34,4 +34,9 @@ def test_api(client):
         json_response = json.loads(response.data.decode('utf8'))
     except ValueError as e:
         print(e)
-       
+        assert False
+
+    # successful
+    if json_response["success"]:
+        # most probable label
+        print(json_response["most_probable_la
