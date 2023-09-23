@@ -42,4 +42,9 @@ def test_api(client):
         print(json_response["most_probable_label"])
         # predictions
         for dic in json_response["predictions"]:
-            print("label {0} probability: {1}".format(dic["label"],dic["pr
+            print("label {0} probability: {1}".format(dic["label"],dic["probability"]))
+        
+        assert json_response["most_probable_label"] == "4"
+    # failed
+    else:
+        assert False
