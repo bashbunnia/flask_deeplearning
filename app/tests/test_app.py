@@ -39,4 +39,7 @@ def test_api(client):
     # successful
     if json_response["success"]:
         # most probable label
-        print(json_response["most_probable_la
+        print(json_response["most_probable_label"])
+        # predictions
+        for dic in json_response["predictions"]:
+            print("label {0} probability: {1}".format(dic["label"],dic["pr
