@@ -23,4 +23,10 @@ def test_api(client):
 
     # create payload with image for request
     image = open(IMAGE_PATH, "rb")
-    payload
+    payload = {"file": image}
+    response = client.post(SERVER_URL, data=payload)
+
+    # check response
+    assert response.status_code == 200
+
+    # JSON for
