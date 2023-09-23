@@ -29,4 +29,9 @@ def test_api(client):
     # check response
     assert response.status_code == 200
 
-    # JSON for
+    # JSON format
+    try:
+        json_response = json.loads(response.data.decode('utf8'))
+    except ValueError as e:
+        print(e)
+       
