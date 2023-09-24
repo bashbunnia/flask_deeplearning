@@ -26,4 +26,5 @@ networks:
   nginx_network:
     driver: bridge
 
-volu
+volumes:
+  static_volume:
