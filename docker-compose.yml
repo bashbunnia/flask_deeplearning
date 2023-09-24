@@ -8,3 +8,12 @@ services:
     volumes:
       - static_volume:/app/app/static
     networks:
+      - nginx_network
+
+  nginx:
+    image: nginx:1.25-alpine
+    ports:
+      - 80:80
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - static_
