@@ -6,4 +6,6 @@ This repository showcases the deployment of a Deep Learning model as a microserv
 - [DEPENDENCIES](#dependencies)
   - [PYTHON VIRTUAL ENVIRONMENT](#python-virtual-environment)
 - [REPOSITORY CONTENT](#repository-content)
-- [ARCHITECTURE
+- [ARCHITECTURE](#architecture)
+- [DEEP LEARNING MODEL](#deep-learning-model)
+- [HOW TO RUN DEEP LEARNING ON FLASK WITH DOCKER COMPOSE
