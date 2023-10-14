@@ -12,4 +12,6 @@ This repository showcases the deployment of a Deep Learning model as a microserv
 - [TEST SERVER \& REST API](#test-server--rest-api)
 - [CREDITS](#credits)
 
-## PURP
+## PURPOSE
+
+The objective here is to deploy a [Deep Learning] model on [Flask] as a microservice. The model is used to predict handwr
