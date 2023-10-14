@@ -8,4 +8,8 @@ This repository showcases the deployment of a Deep Learning model as a microserv
 - [REPOSITORY CONTENT](#repository-content)
 - [ARCHITECTURE](#architecture)
 - [DEEP LEARNING MODEL](#deep-learning-model)
-- [HOW TO RUN DEEP LEARNING ON FLASK WITH DOCKER COMPOSE
+- [HOW TO RUN DEEP LEARNING ON FLASK WITH DOCKER COMPOSE](#how-to-run-deep-learning-on-flask-with-docker-compose)
+- [TEST SERVER \& REST API](#test-server--rest-api)
+- [CREDITS](#credits)
+
+## PURP
