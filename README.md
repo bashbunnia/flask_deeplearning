@@ -14,4 +14,4 @@ This repository showcases the deployment of a Deep Learning model as a microserv
 
 ## PURPOSE
 
-The objective here is to deploy a [Deep Learning] model on [Flask] as a microservice. The model is used to predict handwr
+The objective here is to deploy a [Deep Learning] model on [Flask] as a microservice. The model is used to predict handwritten digits. It was previously trained on a [Jupyter Notebook]. [REST API] are used to communicate with the deployed model, e.g. send images to 
