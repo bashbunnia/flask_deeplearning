@@ -20,4 +20,5 @@ The objective here is to deploy a [Deep Learning] model on [Flask] as a microser
 
 The code has been tested using:
 
-* [Python] (3.10): an interpreted high-level programming language
+* [Python] (3.10): an interpreted high-level programming language for general-purpose programming.
+* [Jupyter Lab] (4.0): a web-based interactive development environment for [Jupyter Notebooks], code and data.
