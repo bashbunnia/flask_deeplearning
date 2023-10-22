@@ -22,3 +22,5 @@ The code has been tested using:
 
 * [Python] (3.10): an interpreted high-level programming language for general-purpose programming.
 * [Jupyter Lab] (4.0): a web-based interactive development environment for [Jupyter Notebooks], code and data.
+* [Flask] (3.0): a microframework for [Python] based on Werkzeug, Jinja 2 and good intentions.
+* [Gunicorn] (21.2): a [Python] [WSGI]
