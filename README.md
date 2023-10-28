@@ -27,4 +27,5 @@ The code has been tested using:
 * [NGINX] (1.25): a free, open-source, high-performance HTTP server, reverse proxy, and IMAP/POP3 proxy server.
 * [Docker] (24.0): an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.
 * [Docker Compose] (2.21): a tool for defining and running multi-container [Docker] applications.
-* [Keras] ([TensorFlow] built-in): a high-level neural ne
+* [Keras] ([TensorFlow] built-in): a high-level neural networks [API], written in [Python] and capable of running on top of [TensorFlow].
+* [TensorFlow] (2.14): an open source software [Deep Le
