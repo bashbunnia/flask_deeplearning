@@ -29,4 +29,5 @@ The code has been tested using:
 * [Docker Compose] (2.21): a tool for defining and running multi-container [Docker] applications.
 * [Keras] ([TensorFlow] built-in): a high-level neural networks [API], written in [Python] and capable of running on top of [TensorFlow].
 * [TensorFlow] (2.14): an open source software [Deep Learning] library for high performance numerical computation using data flow graphs.
-* [Matplotlib] (3.8): a plotting library for [Python] a
+* [Matplotlib] (3.8): a plotting library for [Python] and its numerical mathematics extension [NumPy].
+* [NumPy] (1.26): a library for [Python], adding support for large, multi-dim
